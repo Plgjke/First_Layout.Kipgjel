@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  color: #f9f9f9;
+}
+
+/* Header styles */
+
+.header_container {
+  display: block;
+  width: 100%;
+  height: 10vh;
+  background-color: #06283d;
+}
+
+/* Logo style */
+
+.logo_container {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  left: 200px;
+}
+
+.logo_name {
+  position: relative;
+  font-size: 2.2rem;
+  bottom: 22px;
+}
+
+.logo_name img {
+  position: relative;
+  top: 22px;
+  width: 60px;
+  filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(270deg)
+    brightness(101%) contrast(101%);
+}
+
+/* Navigation bar styles */
+
+.nav_container {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  margin-right: 60px;
+}
+
+.nav_container ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav_container ul a {
+  display: inline-block;
+  list-style: none;
+  font-size: 1.8rem;
+}
+
+.nav_container ul a:hover {
+  color: #47b5ff;
+  transition: 0.3s;
+}
+
+/* Section style */
+
+.section_container {
+  display: inline-block;
+  width: 30vw;
+  height: 83vh;
+}
+
+.article_container {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.article_container figure {
+  width: 100%;
+  height: 20vh;
+}
+
+.article_container figure img {
+  position: relative;
+  width: 168px;
+  left: 50px;
+}
+
+.aside_container {
+  display: inline-block;
+  position: absolute;
+  width: 70vw;
+  height: 83vh;
+}
+
+.aside_container figure img {
+  width: 700px;
+  display: inline-block;
+  position: relative;
+  left: 150px;
+  top: 8px;
+}
+
+#article_r6 {
+  background: #dff6ff;
+  border-radius: 0 10px 10px 0;
+}
+
+#text_r6 {
+  position: relative;
+  font-size: 1.8rem;
+  bottom: 70px;
+  left: 230px;
+  color: #06283d;
+}
+
+.aside_title {
+  position: relative;
+  top: 50px;
+}
+
+.aside_title h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: #06283d;
+}
+
+footer {
+  width: 100%;
+  height: 7vh;
+  background: #06283d;
+}
+
+.footer-container {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  font-size: 2rem;
+  left: 420px;
+}
+
+.footer-container li {
+  display: inline-block;
+  position: relative;
+  margin-left: 20px;
+  top: 10px;
+}
+
+.footer-container a:hover {
+  color: #47b5ff;
+  transition: 0.3s;
+}
