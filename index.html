@@ -7,19 +7,17 @@
     <link rel="stylesheet" href="./styles/styles.css" />
     <title>Layout Motorcycle</title>
   </head>
+
   <body>
-    <header class="header_container">
+    <header>
       <figure class="logo_container">
-        <a class="logo_name" href="#"
-          ><img
-            src="./assets/icons/horse.png"
-            alt="Motorcycle transformer"
-          />Iron Horse</a
+        <a href="#"
+          ><img src="./assets/icons/horse.png" alt="Horse icon" />Iron Horse</a
         >
       </figure>
 
-      <nav class="nav_container">
-        <ul>
+      <nav>
+        <ul class="nav_container">
           <a href="#">
             <li>Motorcycles</li>
           </a>
@@ -32,7 +30,7 @@
           <a href="#">
             <li>Buy</li>
           </a>
-          <a class="nav_buton" href="#">
+          <a href="#">
             <li>Find a Dealer</li>
           </a>
         </ul>
@@ -40,17 +38,21 @@
     </header>
 
     <main>
-      <section class="section_container">
+      <section>
         <article class="article_container">
           <figure>
             <img src="./assets/images/1.png" alt="Motorcycle" />
           </figure>
         </article>
-        <article class="article_container">
-          <figure id="article_r6">
+        <article class="article_container" id="article_container_r1">
+          <figure>
             <img src="./assets/images/2.png" alt="Motorcycle" />
-            <h2 id="text_r6">Super sport YZF-R6</h2>
           </figure>
+          <div class="title_r1">
+            <h2>YZF-R1M</h2>
+            <p>DISPLACEMENT</p>
+            <span>998 cc</span>
+          </div>
         </article>
         <article class="article_container">
           <figure>
@@ -62,36 +64,39 @@
             <img src="./assets/images/4.png" alt="Motorcycle" />
           </figure>
         </article>
+        <article class="article_container">
+          <figure>
+            <img src="./assets/images/5.png" alt="Motorcycle" />
+          </figure>
+        </article>
       </section>
 
-      <aside class="aside_container">
-        <div class="aside_title">
-          <h1>Super sport YZF-R1M</h1>
-        </div>
-        <figure>
-          <img src="./assets/images/5.png" alt="" />
+      <aside>
+        <h1>Super sport</h1>
+        <figure class="aside_container">
+          <img src="./assets/images/2.png" alt="" />
         </figure>
       </aside>
-
-      <footer>
-        <ul class="footer-container">
-          <a href="#">
-            <li>Overview</li>
-          </a>
-          <a href="#">
-            <li>Features</li>
-          </a>
-          <a href="#">
-            <li>Specs</li>
-          </a>
-          <a href="#">
-            <li>Photos & videos</li>
-          </a>
-          <a class="nav_buton" href="#">
-            <li>Demo</li>
-          </a>
-        </ul>
-      </footer>
     </main>
+
+    <footer>
+      <ul class="footer-container">
+        <a href="#">
+          <li>Overview</li>
+        </a>
+        <a href="#">
+          <li>Features</li>
+        </a>
+        <a href="#">
+          <li>Specs</li>
+        </a>
+        <a href="#">
+          <li>Photos & videos</li>
+        </a>
+        <a class="nav_buton" href="#">
+          <li>Demo</li>
+        </a>
+      </ul>
+    </footer>
   </body>
 </html>
